@@ -1,4 +1,5 @@
 Directions
-===========
+===
 
-_TODO: Add project description_ 
+This repository contains the initial 'Directions' exercice done in JS.
+
