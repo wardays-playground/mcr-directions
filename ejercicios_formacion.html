@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <title>Ejercicios Marc Colell</title>
+</head>
+
+<body>
+  <script type="text/javascript" src="address_data.js"></script>
+  <script type="text/javascript" src="address.js"></script>
+  <script type="text/javascript" src="ex1.js"></script>
+  <script type="text/javascript" src="ex2.js"></script>
+  <script>
+
+    // Funciones ejercicio 2
+
+    //addressObj.getNumEmpty();
+
+    console.log(`${addressObj.getNumEmptyV2().length} direcciones vacias`);
+
+    console.log(addressObj.getUniqAddress());
+
+    //console.log(addressObj.getUniqAddressV2());
+
+    //console.log(addressObj.orderProp('number', 'desc'));
+    console.log(addressObj.orderPropV2('number', 'asc'));
+
+    //let filterResults = addressObj.filter('dia', '205', 'bar');
+    //console.log(filterResults);
+
+    let filterResultsV2 = addressObj.filterV2('dia', '205', 'bar');
+    //let filterResultsV2 = addressObj.filterV2('Barcelona', 'Barcelona', 'bar');
+
+    console.log(filterResultsV2);
+
+    addressObj.getMaxMinNum('max');
+
+    addressObj.getMaxMinNum('min');
+
+    addressObj.getCoincidences('barcelona');
+  </script>
+</body>
+
+</html>
